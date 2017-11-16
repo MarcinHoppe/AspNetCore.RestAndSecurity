@@ -16,7 +16,7 @@ namespace PasswordManager
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
