@@ -12,11 +12,11 @@ Implementujemy API w stylu RPC: [02-api-rpc](/02-api-rpc/README.md).
 
 ### 03. Identyfikacja zasobów
 
-Identyfikujemy zasoby w API: [03-api-resources](/02-api-resources/README.md).
+Identyfikujemy zasoby w API: [03-api-resources](/03-api-resources/README.md).
 
 ### 04. Poprawne użycie metod HTTP
 
-Poprawnie używamy metod HTTP: [04-api-verbs](/02-api-verbs/README.md).
+Poprawnie używamy metod HTTP: [04-api-verbs](/04-api-verbs/README.md).
 
 ### 05. Implementacja HATEOAS
 
