@@ -43,7 +43,7 @@ public IActionResult StorePassword(string url, string login, string password)
 
 ### Operacja pobrania hasła
 
-1. W metodzie `CredentialsController.StorePassword` zmieniamy atrybut `[HttpPost]` na `[HttpGet]`:
+1. W metodzie `CredentialsController.GetPassword` zmieniamy atrybut `[HttpPost]` na `[HttpGet]`:
 
 ```csharp
 [HttpGet("/websites/{url}/password")]
