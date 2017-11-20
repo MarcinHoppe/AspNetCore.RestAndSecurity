@@ -44,24 +44,20 @@ Dodajemy logowanie żądań do potoku przetwarzania: [09-logging](/09-logging/RE
 
 Dodajemy filtry, które umożliwią uwierzytelnianie i autoryzację: [10-authn-authz](/10-authn-authz/README.md).
 
-### 11. Uwierzytelnianie za pomocą certyfikatu klienta
-
-Konfigurujemy uwierzytelnianie za pomocą certyfikatu klienta: [11-client-certs](/11-client-certs/README.md).
-
 ## Dzień 3
 
-### 12. Konfiguracja CORS
+### 11. Konfiguracja CORS
 
-Konfigurujemy mechanizm Cross-Origin Resource Sharing: [12-cors](/12-cors/README.md).
+Konfigurujemy mechanizm Cross-Origin Resource Sharing: [11-cors](/12-cors/README.md).
 
-### 13. Obrona przed CSRF
+### 12. Obrona przed CSRF
 
-Implementujemy ochronę przed atakiem typu Cross-Site Request Forgery: [13-csrf](/13-csrf/README.md).
+Implementujemy ochronę przed atakiem typu Cross-Site Request Forgery: [12-csrf](/13-csrf/README.md).
 
-### 14. Ochrona dostępu do API za pomocą IdentityServer4
+### 13. Ochrona dostępu do API za pomocą IdentityServer4
 
-Uwierzytelniamy użytkownika za pomocą IdentityServer4 i chronimy dostęp do API: [14-idsrv4](/14-idsrv4/README.md).
+Uwierzytelniamy użytkownika za pomocą IdentityServer4 i chronimy dostęp do API: [13-idsrv4](/14-idsrv4/README.md).
 
-### 15. Implementacja polityki autoryzacji
+### 14. Implementacja polityki autoryzacji
 
-Implementujemy własną politykę autoryzacji: [15-authz-policy](/15-authz-policy/README.md).
+Implementujemy własną politykę autoryzacji: [14-authz-policy](/15-authz-policy/README.md).
