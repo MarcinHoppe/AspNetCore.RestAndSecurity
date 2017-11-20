@@ -8,7 +8,7 @@ Chcemy przenieść nasze API na poziom 2 w modelu Richardsona. W tym celu musimy
 1. Operacja wygenerowania hasła pozostanie operację typu `POST`.
 1. Operacja zapisu własnego hasła będzie operacją typu `PUT`.
 1. Operacja pobrania hasła będzie operacją typu `GET`.
-1. Ppprawnie obsłużymy sytuację, w której witryna nie jest zarejestrowana.
+1. Poprawnie obsłużymy sytuację, w której witryna nie jest zarejestrowana.
 
 
 ## Co mamy na starcie?
