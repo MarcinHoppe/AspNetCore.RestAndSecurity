@@ -40,7 +40,7 @@ namespace PasswordManager.Controllers
         }
 
         [HttpPost("/websites/{url}/password/{login}/store")]
-        public IActionResult StorePassword(string url, string login, string password)
+        public IActionResult StorePassword(string url, string login, [FromBody] string password)
         {
             var website = context.Websites
                 .Include(w => w.Credentials)
