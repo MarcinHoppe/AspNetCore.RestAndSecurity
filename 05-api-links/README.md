@@ -78,6 +78,10 @@ return Json(new ViewModel.Credentials
 
 ```csharp
 // ...
+var website = context.Websites
+    .Include(w => w.Credentials)
+    .FirstOrDefault(w => w.Url == url);
+    
 string passwordUri = null;
 
 if (website.Credentials != null)
