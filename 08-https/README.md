@@ -56,7 +56,7 @@ Na starcie dostajemy pusty project ASP.NET Core z włączonym MVC i jednym prost
 ### Testujemy
 
 1. W ustawieniach Postmana (File -> Settings -> General) *odznaczamy* opcję weryfikacji certyfikatu HTTPS.
-1. Testujemy API za pomocą Postmana zarówno za pomocą protokołu HTTP i HTTPS.
+1. Testujemy API (korzystając z nowego profilu IIS) za pomocą Postmana zarówno za pomocą protokołu HTTP i HTTPS.
 
 
 ### Wymuszamy HTTPS
@@ -84,7 +84,7 @@ app.UseRewriter(rewriteOptions);
 ## Testujemy
 
 1. Uruchamiamy API (Ctrl + F5).
-1. Testujemy za pomocą protokołu HTTPS.
+1. Testujemy API (korzystając z nowego profilu IIS) za pomocą protokołu HTTPS.
 1. Uruchamiamy Fiddlera.
 1. Wykonujemy żądanie za pomocą protokołu HTTP.
 1. Weryfikujemy, że występuje przekierowanie (może być za pomocą przeglądarki).
