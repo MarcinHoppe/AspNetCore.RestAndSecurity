@@ -48,4 +48,4 @@ app.UseDebugLogging();
 
 1. Uruchamiamy API pod kontrolą debuggera (F5).
 1. Testujemy API.
-1. Weryfikujemy, że 
+1. Weryfikujemy, że informacje są logowane do okienka Debug -> Output w Visual Studio.
