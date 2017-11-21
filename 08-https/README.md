@@ -40,8 +40,8 @@ Na starcie dostajemy pusty project ASP.NET Core z włączonym MVC i jednym prost
 
 ### Odnajdujemy certyfikat w systemie
 
-1. Uruchamiamy program mmc.exe
-1. Korzystają z menu odajemy przystawkę Certyfikaty (Konto komputera dla komputera lokalnego).
+1. Uruchamiamy program mmc.exe.
+1. Korzystając z menu Plik dodajemy przystawkę Certyfikaty (Konto komputera dla komputera lokalnego).
 1. Szukamy nowoutworzonego certyfikatu w folderze Osobiste -> Certyfikaty.
 
 
