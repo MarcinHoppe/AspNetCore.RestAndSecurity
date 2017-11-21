@@ -7,7 +7,7 @@ Chcemy napisać middleware, który będzie na wyjście debugowe wypisywał infor
 
 ## Co mamy na starcie?
 
-Na starcie dostajemy pusty project ASP.NET Core z włączonym MVC i jednym prostym kontrolerem i jedną klasą modelu.
+Na starcie dostajemy prosty project ASP.NET Core z włączonym MVC i jednym prostym kontrolerem i jedną klasą modelu.
 
 
 ## Do roboty!
