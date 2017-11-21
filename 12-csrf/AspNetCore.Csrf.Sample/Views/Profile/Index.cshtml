@@ -1,0 +1,64 @@
+﻿@model AspNetCore.Csrf.Sample.Model.Profile
+
+<h2>Edit profile</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <section>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label asp-for="FirstName" class="col-md-2 control-label">First name</label>
+                    <div class="col-md-10">
+                        <input asp-for="FirstName" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="LastName" class="col-md-2 control-label">Last name</label>
+                    <div class="col-md-10">
+                        <input asp-for="LastName" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="Email" class="col-md-2 control-label">E-mail</label>
+                    <div class="col-md-10">
+                        <input asp-for="Email" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="BankAccount" class="col-md-2 control-label">Bank account</label>
+                    <div class="col-md-10">
+                        <input asp-for="BankAccount" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input onclick="submitProfileForm()" type="button" value="Update" class="btn btn-default" />
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+<script>
+    function submitProfileForm() {
+        $.ajax({
+            url: "http://web.local:57082/Profile/Update",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({
+                firstName: $("#FirstName").val(),
+                lastName: $("#LastName").val(),
+                email: $("#Email").val(),
+                bankAccount: $("#BankAccount").val()
+            })
+        }).done(function (data) {
+            location.reload();
+            console.log(data);
+        });
+    }
+</script>
