@@ -7,7 +7,7 @@ using SimpleApi.Model;
 namespace SimpleApi.Controllers
 {
     [Route("contacts")]
-    [Authorize]
+    [Authorize(AuthenticationSchemes = "HeaderAuth")]
     public class ContactController : Controller
     {
         private static readonly List<ContactInfo> contacts = new List<ContactInfo>()
