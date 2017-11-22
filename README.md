@@ -56,8 +56,8 @@ Implementujemy ochronę przed atakiem typu Cross-Site Request Forgery: [12-csrf]
 
 ### 13. Ochrona dostępu do API za pomocą IdentityServer4
 
-Uwierzytelniamy użytkownika za pomocą IdentityServer4 i chronimy dostęp do API: [13-idsrv4](/14-idsrv4/README.md).
+Uwierzytelniamy użytkownika za pomocą IdentityServer4 i chronimy dostęp do API: [13-idsrv4](/13-idsrv4/README.md).
 
 ### 14. Implementacja polityki autoryzacji
 
-Implementujemy własną politykę autoryzacji: [14-authz-policy](/15-authz-policy/README.md).
+Implementujemy własną politykę autoryzacji: [14-authz-policy](/14-authz-policy/README.md).
